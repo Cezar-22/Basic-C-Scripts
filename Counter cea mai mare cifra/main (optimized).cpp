@@ -6,10 +6,9 @@ int main() {
     cout << "Introdu un numar: ", cin >> nr;
     nr = abs(nr);
     int maxCif = 0;
-    int counter = 0;
+    int counter = 1;
     while (nr != 0)
     {
-        int cif = temp % 10;
         int cif = nr % 10;
         if (cif > maxCif)
         {
