@@ -23,6 +23,7 @@ int main() {
             maxDivCount = divCount;
             finalNumber = n;
         }
+        divCount = 0;
     }
     cout << "Numarul cu cele mai multe divizori intre " << a << " si " << b << " este: " << finalNumber << " cu " << maxDivCount << " divizori." << endl;
     return 0;
